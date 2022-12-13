@@ -1,0 +1,101 @@
+/* Browser Reset */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Skeleton */
+body {
+    text-align: center;
+    /* margin-top: 5em; */
+}
+
+#navbar-example2 {
+    max-width: none;
+}
+
+#testimonials{
+    position: relative;
+    bottom:350px
+}
+
+.card-body {
+    background-color: lightgray;
+    color: black;
+    text-shadow: 1px 1px black;
+
+}
+
+.carousel-slide {
+    max-width: 50%;
+
+}
+
+#carouselflex {
+    flex-direction: column;
+}
+
+header {
+    color: aquamarine;
+    width: 100%;
+    margin: auto;
+    border-color: #029372;
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgb(52, 56, 82);
+    position: fixed;
+    top: 0px;
+    opacity: 80%;
+    z-index: 1;
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+    text-align: right;
+    color: #fdc6d6;
+    padding: 7px 20px;
+    margin-bottom: 25px;
+
+}
+
+nav {
+    text-decoration: none;
+    text-align: right;
+    background-color: black;
+    color: #fdc6d6;
+    padding: 7px 20px;
+    margin-bottom: 25px;
+}
+
+.introbanner {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-image: url("../img/bannerphoto.webp");
+
+    object-fit: cover;
+    min-width: 100%;
+
+    min-height: 700px;
+}
+
+.introbanner>img {
+
+    object-fit: cover;
+    min-width: 100%;
+
+}
+
+/* Tables */
+.currenttable,
+.pasttable,
+.vendertable {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.abovetestimonials{
+font-size: 4rem;
+color: rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
